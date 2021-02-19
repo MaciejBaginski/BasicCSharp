@@ -7,15 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label x:Name="QuestionField" Content="Label" HorizontalAlignment="Left" Margin="30,30,0,0" VerticalAlignment="Top"/>
-        <RadioButton x:Name="Answer1" GroupName="group" Content="RadioButton" HorizontalAlignment="Left" Margin="30,61,0,0" VerticalAlignment="Top" Checked="Answer_Checked"/>
-        <RadioButton x:Name="Answer2" GroupName="group" Content="RadioButton" HorizontalAlignment="Left" Margin="30,81,0,0" VerticalAlignment="Top" Checked="Answer_Checked"/>
-        <RadioButton x:Name="Answer3" GroupName="group" Content="RadioButton" HorizontalAlignment="Left" Margin="30,101,0,0" VerticalAlignment="Top" Checked="Answer_Checked"/>
-        <RadioButton x:Name="Answer4" GroupName="group" Content="RadioButton" HorizontalAlignment="Left" Margin="30,121,0,0" VerticalAlignment="Top" Checked="Answer_Checked"/>
 
-        <Label x:Name="ResultField" HorizontalAlignment="Left" Margin="30,190,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="NextButton" Content="Next" HorizontalAlignment="Left" Margin="30,150,0,0" VerticalAlignment="Top" Width="75" Click="NextButton_Click"/>
-        <Button x:Name="StartButton" Content="Start" HorizontalAlignment="Left" Margin="600,305,0,0" VerticalAlignment="Top" Width="75" Click="StartButton_Click"/>
+        <Label x:Name="QuestionField" Content="Label" HorizontalAlignment="Left" Margin="30,30,0,0" VerticalAlignment="Top"/>
+            <RadioButton x:Name="Answer1" GroupName="group" Content="RadioButton" HorizontalAlignment="Left" Margin="30,61,0,0" VerticalAlignment="Top" Checked="Answer_Checked"/>
+            <RadioButton x:Name="Answer2" GroupName="group" Content="RadioButton" HorizontalAlignment="Left" Margin="30,81,0,0" VerticalAlignment="Top" Checked="Answer_Checked"/>
+            <RadioButton x:Name="Answer3" GroupName="group" Content="RadioButton" HorizontalAlignment="Left" Margin="30,101,0,0" VerticalAlignment="Top" Checked="Answer_Checked"/>
+            <RadioButton x:Name="Answer4" GroupName="group" Content="RadioButton" HorizontalAlignment="Left" Margin="30,121,0,0" VerticalAlignment="Top" Checked="Answer_Checked"/>
+
+            <Label x:Name="ResultField" HorizontalAlignment="Left" Margin="30,190,0,0" VerticalAlignment="Top" Foreground="Black"/>
+            <Button x:Name="NextButton" Content="Next" HorizontalAlignment="Left" Margin="30,150,0,0" VerticalAlignment="Top" Width="75" Click="NextButton_Click"/>
+            <Button x:Name="StartButton" Content="Start" HorizontalAlignment="Left" Margin="600,305,0,0" VerticalAlignment="Top" Width="75" Click="StartButton_Click"/>
 
     </Grid>
 </Window>

@@ -55,6 +55,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Answer.cs" />
+    <Compile Include="AnswerValue.cs" />
+    <Compile Include="Question.cs" />
+    <Compile Include="QuestionDatabase.cs" />
+    <Compile Include="Questionnaire.cs" />
+    <Compile Include="QuestionnaireException.cs" />
+    <Compile Include="ResultValue.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
